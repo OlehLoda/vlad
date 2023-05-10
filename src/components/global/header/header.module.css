@@ -1,0 +1,42 @@
+.header {
+  background: #444444;
+
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 83px;
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  padding: 30px;
+}
+
+.header > nav {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 80px;
+}
+
+.header > nav > a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+
+  display: grid;
+  align-items: center;
+  grid-auto-flow: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.active {
+  text-decoration: underline;
+}
